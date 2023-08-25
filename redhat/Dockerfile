@@ -4,4 +4,4 @@ FROM registry.access.redhat.com/ubi7:latest
 
 # Changing the behavior of the pod
 # CMD ["/bin/bash", "-c", "sleep infinity"]
-CMD ["/bin/bash", "-c", "--", "while true; do sleep 30; done;"]
+CMD ["/bin/bash", "-c", "--", "while true; do sleep 40; done;"]
